@@ -66,23 +66,26 @@ p {font-size: 1em; color: #777;}
 /* Cabeçalho - END */
 
 
-/* Tela de Cadastro*/
-.corpoCadastro { 
-    padding: 50px 22%; 
-    text-align: right;
-    margin-right: 12%;}
+/* Conteúdo das páginas*/
+.conteudo { 
+    padding: 50px 30%; 
+    text-align: center;}
 
-.corpoCadastro input[type="text"] {width: 70%; 
+.conteudo form{
+    text-align: right;
+}
+
+.conteudo input[type="text"] {width:85%; 
     padding: 10px 15px; 
     margin-top: 20px;
     border-radius:5px; }
     
-.corpoCadastro input[type="password"] {width: 70%; 
+.conteudo input[type="password"] {width: 85%; 
     padding: 10px 15px; 
     margin-top: 20px;
     border-radius:5px; }
 
-.corpoCadastro input[type="submit"] {width: 30%;  
+.conteudo button[type="submit"] {width: 30%;  
     padding: 10px 15px; 
     margin-top: 20px;
     border-radius:5px; 
@@ -91,12 +94,12 @@ p {font-size: 1em; color: #777;}
     color: #e36387;
     cursor: pointer;}
 
-.corpoCadastro label{font-size: 20px;
+.conteudo label{font-size: 20px;
     font-family: 'Leckerli One', cursive;
     color: #fff;}
 
-/*Tela feedback*/
-.corpoFeedback { 
+/*Páginas de feedback*/
+.feedback { 
     padding: 15% 5%;
     text-align: center;}
 
@@ -110,6 +113,36 @@ p {font-size: 1em; color: #777;}
     font-family: 'Leckerli One', cursive;
     color: #ddf3f5;
     padding-top: 152px;}
+
+
+.resultados {
+    padding: 15% 15%;
+    text-align: center;}
+
+.resultados table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.resultados th{
+    font-weight: bold;
+    border: 1px solid #a6dcef;
+
+  background-color: #ddf3f5;
+    text-align: left;
+    padding: 8px;
+  }
+
+.resultados td {
+  border: 1px solid #a6dcef;
+  text-align: left;
+  padding: 8px;
+}
+
+.resultados tr:nth-child(even) {
+  background-color: #a6dcef;
+}
 
 
 

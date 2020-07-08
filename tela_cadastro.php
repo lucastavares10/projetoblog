@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Lucas Tavares Freire - lucas_tavares10@hotmail.com">
     <title>Cadastro de usuário</title>
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Leckerli+One&display=swap" rel="stylesheet">
@@ -13,11 +14,7 @@
 <body>
 
     <header class="cabecalho">
-        <form method="post" action="">
-            <input type="text" placeholder="Faça uma busca">
-            <button class="btn_busca"><i class="fa fa-search fa-lg"></i></button>
-        </form> 
-
+    
         <h1 class="labelPagina">Cadastro</h1>
 
         <h1 class="logo"><a href="index.php" title="Blog do Lucas"></a></h1>
@@ -25,7 +22,7 @@
     </header>
 
 
-    <header class="corpoCadastro">
+    <header class="conteudo">
 
         <form name="formCadastro" action="script_cadastro.php" method="post">
             <label for="nome">Nome:</label>
@@ -48,8 +45,7 @@
             <br>
             <label for="senha">Senha:</label>
             <input name="senha" type="password">
-
-                    <input type="submit" value="Cadastrar">
+            <button type="submit"><i class="fa fa-user-plus" aria-hidden="true"></i> Cadastrar</button>
 
 
         </form>

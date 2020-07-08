@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Lucas Tavares Freire - lucas_tavares10@hotmail.com">
     <title>Bem vindo! - Blog do Lucas</title>
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Leckerli+One&display=swap" rel="stylesheet">
@@ -13,13 +14,8 @@
 <body>
     <header class="cabecalho">
 
-        <button class="btn_opcoes" onclick="redirecionar_cadastro()">Cadastre-se</button>
-        <button class="btn_opcoes" onclick="redirecionar_login()">Entrar</button>
-
-        <form method="post" action>
-            <input type="text" placeholder="Faça uma busca">
-            <button class="btn_busca"><i class="fa fa-search fa-lg"></i></button>
-        </form> 
+        <button class="btn_opcoes" onclick="redirecionar_cadastro()"><i class="fa fa-user-plus" aria-hidden="true"></i> Cadastre-se</button>
+        <button class="btn_opcoes" onclick="redirecionar_login()"><i class="fa fa-sign-in" aria-hidden="true"></i> Entrar</button>
 
         <h1 class="labelPagina">Bem Vindo!</h1>
 
